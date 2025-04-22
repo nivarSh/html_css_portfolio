@@ -407,7 +407,7 @@ footer p {
   }
 
   .profile-image-container {
-    max-width: 150px;
+    max-width: 140px;
     overflow: hidden;
     display: grid;
     place-items: center;
@@ -507,7 +507,7 @@ footer p {
     flex-shrink: 1; /* Allow image to shrink */
     min-width: 80px; /* Set a minimum width so it doesn't get too small */
     width: auto; /* Let width be determined by available space */
-    max-width: 150px; /* Limit maximum width */
+    max-width: 125px; /* Limit maximum width */
   }
   
   .profile-text {
