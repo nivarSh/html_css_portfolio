@@ -170,7 +170,7 @@ nav a:hover .nav-line {
 main {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 2.5rem;
   padding: 0rem 2rem;
   margin-bottom: 3rem;
 }
@@ -179,6 +179,13 @@ section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(185, 148, 148, 0.2);
+}
+
+section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 section h2 {
